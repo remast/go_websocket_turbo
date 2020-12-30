@@ -1,6 +1,6 @@
 # Go Example for TurboStreams over WebSockets
 
-Simple example for using [Turbo](https://turbo.hotwire.dev/)s [Stream](https://turbo.hotwire.dev/reference/streams)s with the [Gorilla WebSocket](https://github.com/gorilla/websocket) toolkit.
+Simple example for using [Turbo](https://turbo.hotwire.dev/)s [Stream](https://turbo.hotwire.dev/reference/streams)s in Go with the [Gorilla WebSocket](https://github.com/gorilla/websocket) toolkit.
 
 Run the sample using the following command:
 
