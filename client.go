@@ -105,10 +105,10 @@ func (c *Client) writePump() {
 				   "{\"channel\":\"Turbo::StreamsChannel\",\"signed_stream_name\":\"**mysignature**\"}",
 				"message":
 				  "<turbo-stream action="append" target="board">
-				  <template>
-				  	<p>$$MESSAGE$$</p>
-				  </template>
-				</turbo-stream>"
+					<template>
+						<p>$$MESSAGE$$</p>
+					</template>
+				   </turbo-stream>"
 			  }`
 
 			msg = strings.Replace(msg, "$$MESSAGE$$", string(message), -1)
