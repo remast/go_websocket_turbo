@@ -30,11 +30,11 @@ The raw text message sent over the web socket is:
 ```json
 { 
   "identifier": 
-     "{\"channel\":\"Turbo::StreamsChannel\",  gned_stream_name\":\"**mysignature**\"}",
+     "{\"channel\":\"Turbo::StreamsChannel\",  \"signed_stream_name\":\"**mysignature**\"}",
   "message":
-    "<turbo-stream action="append" target="board">
+    "<turbo-stream action='append' target='board'>
   	<template>
-  		<p>My ne wMessage</p>
+  		<p>My new Message</p>
   	</template>
      </turbo-stream>"
 }
