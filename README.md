@@ -12,7 +12,7 @@ To use the chat example, open http://localhost:8080/ in your browser.
 The frontend connects to the Turbo Stream using plain JavaScript like:
 
 ```html
-<script src="https://unpkg.com/@hotwired/turbo@7.0.0-beta.1/dist/turbo.es5-umd.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@7.1.0/dist/turbo.es2017-umd.min.js" ></script>
 <script>
 Turbo.connectStreamSource(new WebSocket("ws://" + document.location.host + "/ws"));
 </script>
